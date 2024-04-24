@@ -1,10 +1,10 @@
 Package: QSutils
 Type: Package
 Title: Quasispecies Diversity
-Version: 1.21.0
-Date: 2018-04-06
+Version: 1.21.1
+Date: 2024-04-23
 Authors@R:c(person("Mercedes", "Guerrero-Murillo", email="mergumu@gmail.com", role=c("cre", "aut"), comment = c(ORCID = "0000-0002-5556-2460")),  person("Josep", "Gregori i Font", role=c ("aut"), comment = c(ORCID = "0000-0002-4253-8015")))
-Depends: R (>= 3.5), Biostrings, BiocGenerics,methods
+Depends: R (>= 3.5), Biostrings, pwalign, BiocGenerics, methods
 Imports: ape, stats, psych
 Encoding: UTF-8
 Description: Set of utility functions for viral quasispecies analysis with NGS data. Most functions are equally useful for metagenomic studies. There are three main types: (1) data manipulation and exploration—functions useful for converting reads to haplotypes and frequencies, repairing reads, intersecting strand haplotypes, and visualizing haplotype alignments. (2) diversity indices—functions to compute diversity and entropy, in which incidence, abundance, and functional indices are considered. (3) data simulation—functions useful for generating random viral quasispecies data.
